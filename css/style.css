@@ -31,8 +31,9 @@ html,
 body {
 	height: 100%;
 	line-height: 1;
-	font-size: 16px;
-	color: #000;
+	font-size: 14px;
+	font-weight: 500;
+	color: #252B42;
     font-family: Montserrat;
 }
 .wrapper {
@@ -41,5 +42,73 @@ body {
 }
 ._container {
     max-width: 1046px;
+	padding: 0px 15px;
     margin: 0px auto;
+	box-sizing: content-box;
+}
+/*--------------Шапка-------------*/
+.header {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 50;
+}
+.header__container {
+	display: flex;
+	min-height: 104px;
+	align-items: center;
+}
+@media (max-width: 479px) {
+	.header__container {
+		min-height: 70px;
+	}
+}
+.heder__logo {
+	font-size: 24px;
+	font-weight: 700;
+	color: inherit;
+}
+.heder__menu {
+	margin: 0px 0px 0px 133px;
+}
+@media (max-width: 992px) {
+	.heder__menu {
+		margin: 0px 0px 0px 80px;
+	}
+}
+@media (max-width: 767px) {
+	.heder__menu {
+		margin: 0px 0px 0px 40px;
+	}
+}
+@media (max-width: 479px) {
+	.heder__menu {
+		margin: 0px 0px 0px 20px;
+	}
+}
+
+
+.menu {
+	padding: 5px 0px;
+}
+.menu__list {
+	flex-wrap: wrap;
+	display: flex;
+}
+.menu__item {
+	
+}
+.menu__item:not(:last-child){
+	margin: 0px 21px 0px 0px;
+}
+.menu__link {
+	color: #737373;
+	font-weight: 600;
+	line-height: calc(24 / 14 * 100%);
+}
+@media (max-width: 479px) {
+	.menu__link {
+		font-size: 18px;
+	}
 }
