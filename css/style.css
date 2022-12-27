@@ -138,6 +138,8 @@ body {
 }
 .page__advantages {
 }
+.page__practice {
+}
 /*------Heder-Block----------*/
 .header-block {
 	text-align: center;
@@ -339,7 +341,7 @@ body {
 }
 .item-service__text {
 	color: #737373;
-	line-height: 143%;
+	line-height: 142%;
 }
 /*-------------------------------------------------------------*/
 .advantages {
@@ -409,4 +411,54 @@ body {
 	color: #737373;
 	font-size: 16px;
 	line-height: 150%;
+}
+/*---------------------------------------*/
+.practice {
+	padding: 125px 0px 80px 0px;
+}
+.practice__container {
+}
+.practice__header {
+	margin: 0px 0px 45px 0px;
+}
+.practice__body {
+	margin: 0px -20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.practice__column {
+	padding: 0px 20px;
+	flex: 0 1 25%;
+}
+.practice__item {
+}
+.item-practice {
+	background-color: #fff;
+}
+.item-practice__content {
+	padding: 30px;
+}
+.item-practice__link {
+	color: inherit;
+	display: inline-block;
+}
+.item-practice__link:hover {
+	text-decoration: underline;
+}
+.item-practice__link:not(:last-child) {
+	margin: 0px 0px 15px 0px;
+}
+.item-practice__title {
+	letter-spacing: 0.1px;
+	font-size: 16px;
+	line-height: 150%;
+	font-weight: 700;
+}
+.item-practice__text {
+	color: #737373;
+	line-height: 142%;
+}
+.item-practice__image {
+	display: block;
+	padding: 0px 0px 60% 0px;
 }
